@@ -2,17 +2,17 @@
 using System.Xml;
 
 
-class Tarefa2
+class Tarefa3
 {
     public static void Solve()
     {
         int[] numbers = new int[] { 2, 7, 11, 15 };
         int target = 22;
-        findIndexes(numbers, target);
+        FindIndexes(numbers, target);
 
     }
 
-    static void findIndexes(int[] inputArray, int sum)
+    static void FindIndexes(int[] inputArray, int sum)
     {
         for (int index1 = 0; index1 < inputArray.Length; index1++)
         {

@@ -5,6 +5,6 @@
     {
         Tarefa1.Solve();
         Console.WriteLine("\n********\n");
-        Tarefa2.Solve();
+        Tarefa3.Solve();
     }
 }

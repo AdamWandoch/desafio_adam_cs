@@ -10,15 +10,15 @@ class Tarefa1
         newArray = newArray.Select(x => (x == 9 ? 5 : x)).ToArray();
         int sum = newArray.Sum();
         Console.WriteLine("originalArray: ");
-        printArray(originalArray);
+        PrintArray(originalArray);
         Console.WriteLine("newArray: ");
-        printArray(newArray);
+        PrintArray(newArray);
         Console.WriteLine("Sum of items in newArray: " + sum);
 
     }
 
 
-    static void printArray(int[] array)
+    static void PrintArray(int[] array)
     {
         Console.Write("[ ");
         for (int i = 0; i < array.Length - 1; i++)
