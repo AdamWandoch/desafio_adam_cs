@@ -3,7 +3,7 @@ using System.Xml;
 
 class Tarefa1
 {
-    public static void RunMe()
+    public static void Solve()
     {
         int[] originalArray = { 7, 5, 3, 9, 6, 4, 1 };
         int[] newArray = originalArray.Where(x => x != 4).ToArray();

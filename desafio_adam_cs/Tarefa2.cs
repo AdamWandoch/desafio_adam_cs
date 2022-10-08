@@ -4,7 +4,7 @@ using System.Xml;
 
 class Tarefa2
 {
-    public static void RunMe()
+    public static void Solve()
     {
         int[] numbers = new int[] { 2, 7, 11, 15 };
         int target = 22;
