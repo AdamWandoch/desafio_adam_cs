@@ -7,10 +7,7 @@ class Tarefa1
     {
         int[] originalArray = { 7, 5, 3, 9, 6, 4, 1 };
         int[] newArray = originalArray.Where(x => x != 4).ToArray();
-        for (int i = 0; i < newArray.Length; i++)
-        {
-            if (newArray[i] == 9) newArray[i] = 5;
-        }
+        newArray = newArray.Select(x => (x == 9 ? 5 : x)).ToArray();
         int sum = newArray.Sum();
         Console.WriteLine("originalArray: ");
         printArray(originalArray);
