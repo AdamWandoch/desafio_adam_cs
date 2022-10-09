@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Xml;
 
-
 class Tarefa3
 {
     public static void Solve()

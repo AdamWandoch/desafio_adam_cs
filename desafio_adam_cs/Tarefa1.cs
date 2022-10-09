@@ -16,7 +16,6 @@ class Tarefa1
         Console.WriteLine("Sum of items in newArray: " + sum);
     }
 
-
     static void PrintArray(int[] array)
     {
         Console.Write("[ ");
