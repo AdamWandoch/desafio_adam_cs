@@ -1,7 +1,6 @@
 ﻿class Desafio
 
-{
-    static void Main(string[] args)
+{    static void Main(string[] args)
     {
         Tarefa1.Solve();
         Console.WriteLine("\n********\n");

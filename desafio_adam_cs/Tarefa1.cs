@@ -14,7 +14,6 @@ class Tarefa1
         Console.WriteLine("newArray: ");
         PrintArray(newArray);
         Console.WriteLine("Sum of items in newArray: " + sum);
-
     }
 
 
@@ -25,7 +24,6 @@ class Tarefa1
         {
             Console.Write(array[i] + ", ");
         }
-        Console.WriteLine(array[array.Length - 1] + " ]");
+        Console.WriteLine(array[array.Length - 1] + " ]\n");
     }
-
 }
